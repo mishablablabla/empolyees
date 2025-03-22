@@ -1,0 +1,88 @@
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: none;
+  border-radius: 10px;
+}
+
+.search-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 50px;
+  background: #f7f8fa;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #2575fc;
+  background: #fff;
+}
+
+.btn-group button {
+  background: #616b7b;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-group button:hover {
+  background: #6a11cb;
+}
+
+.search-panel {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: none;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 50px;
+  background: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #2575fc;
+  background: #fff;
+}
+
+.btn-group button {
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-group button:hover {
+  background: #6a11cb;
+}

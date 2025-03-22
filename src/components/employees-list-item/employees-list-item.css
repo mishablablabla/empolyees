@@ -1,0 +1,50 @@
+.list-group-item {
+  border: none;
+  background: none;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  background: #f7f8fa;
+  transform: translateY(-5px);
+}
+
+.list-group-item span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.list-group-item-input {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  background: none;
+  transition: all 0.3s ease;
+}
+
+.list-group-item input:focus {
+  outline: none;
+  border-color: #2575fc;
+  background: #fff;
+}
+
+.list-group-item button {
+  background: #ff3b3b;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.list-group-item button:hover {
+  background: #e02d2d;
+}
